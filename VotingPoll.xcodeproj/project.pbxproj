@@ -27,6 +27,7 @@
 		20500F521A1C12AB0048EAF6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F4E1A1C12AB0048EAF6 /* Security.framework */; };
 		20500F531A1C12AB0048EAF6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F4F1A1C12AB0048EAF6 /* StoreKit.framework */; };
 		20500F541A1C12AB0048EAF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F501A1C12AB0048EAF6 /* SystemConfiguration.framework */; };
+		20500F581A1C16840048EAF6 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20500F571A1C16840048EAF6 /* Battle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		20500F4E1A1C12AB0048EAF6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		20500F4F1A1C12AB0048EAF6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		20500F501A1C12AB0048EAF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		20500F571A1C16840048EAF6 /* Battle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				20500F1E1A1C0CFA0048EAF6 /* Images.xcassets */,
 				20500F201A1C0CFA0048EAF6 /* LaunchScreen.xib */,
 				20500F151A1C0CFA0048EAF6 /* Supporting Files */,
+				20500F571A1C16840048EAF6 /* Battle.swift */,
 			);
 			path = VotingPoll;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			files = (
 				20500F1A1A1C0CFA0048EAF6 /* ViewController.swift in Sources */,
 				20500F181A1C0CFA0048EAF6 /* AppDelegate.swift in Sources */,
+				20500F581A1C16840048EAF6 /* Battle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
