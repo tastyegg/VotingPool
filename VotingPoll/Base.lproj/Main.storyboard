@@ -35,8 +35,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Who Will Win!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xh9-lX-2Jk">
-                                <rect key="frame" x="175" y="38" width="250" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Who Will Win!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xh9-lX-2Jk">
+                                <rect key="frame" x="247" y="20" width="106" height="101"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Person 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgh-Cr-Igc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Person 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgh-Cr-Igc">
                                 <rect key="frame" x="304" y="121" width="280" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -73,6 +73,7 @@
                             <constraint firstItem="DRa-Mm-he1" firstAttribute="top" secondItem="VGS-YK-iTV" secondAttribute="bottom" constant="8" id="4RJ-Ry-kLS"/>
                             <constraint firstItem="VGS-YK-iTV" firstAttribute="centerX" secondItem="DRa-Mm-he1" secondAttribute="centerX" id="5wm-1T-D2s"/>
                             <constraint firstItem="tC0-6b-YCf" firstAttribute="leading" secondItem="O2k-zS-AFm" secondAttribute="leadingMargin" id="72Z-Vw-4i3"/>
+                            <constraint firstItem="bgh-Cr-Igc" firstAttribute="top" secondItem="xh9-lX-2Jk" secondAttribute="bottom" id="ANK-hF-sQh"/>
                             <constraint firstItem="VGS-YK-iTV" firstAttribute="leading" secondItem="tC0-6b-YCf" secondAttribute="trailing" constant="8" id="Cku-ep-Dt1"/>
                             <constraint firstAttribute="centerY" secondItem="tC0-6b-YCf" secondAttribute="centerY" id="Ew8-5R-VyT"/>
                             <constraint firstItem="VGS-YK-iTV" firstAttribute="leading" secondItem="iZ1-lO-IKX" secondAttribute="trailing" constant="8" id="Iwp-eJ-7GE"/>
@@ -83,6 +84,8 @@
                             <constraint firstItem="tC0-6b-YCf" firstAttribute="top" secondItem="iZ1-lO-IKX" secondAttribute="bottom" constant="8" id="bHk-q4-dMR"/>
                             <constraint firstItem="9pv-sR-KfD" firstAttribute="leading" secondItem="O2k-zS-AFm" secondAttribute="leadingMargin" id="clE-fV-z7z"/>
                             <constraint firstItem="VGS-YK-iTV" firstAttribute="top" secondItem="bgh-Cr-Igc" secondAttribute="bottom" constant="8" id="hyB-gx-Xs0"/>
+                            <constraint firstAttribute="centerX" secondItem="xh9-lX-2Jk" secondAttribute="centerX" id="knU-Am-8wZ"/>
+                            <constraint firstItem="xh9-lX-2Jk" firstAttribute="top" secondItem="fJl-Vd-Xq7" secondAttribute="bottom" id="lch-z3-Tsq"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VGS-YK-iTV" secondAttribute="trailing" id="nbJ-iF-MIR"/>
                             <constraint firstAttribute="centerY" secondItem="VGS-YK-iTV" secondAttribute="centerY" id="s1M-Yf-L1Q"/>
                             <constraint firstItem="9pv-sR-KfD" firstAttribute="centerX" secondItem="tC0-6b-YCf" secondAttribute="centerX" id="vCO-aF-tay"/>

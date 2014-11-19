@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FC9244E1A1C2775002242DB /* wolverine in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924441A1C2775002242DB /* wolverine */; };
+		1FC9244F1A1C2775002242DB /* tmnt in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924451A1C2775002242DB /* tmnt */; };
+		1FC924501A1C2775002242DB /* superman in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924461A1C2775002242DB /* superman */; };
+		1FC924511A1C2775002242DB /* solidsnake in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924471A1C2775002242DB /* solidsnake */; };
+		1FC924521A1C2775002242DB /* princesspeach in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924481A1C2775002242DB /* princesspeach */; };
+		1FC924531A1C2775002242DB /* pikachu in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924491A1C2775002242DB /* pikachu */; };
+		1FC924541A1C2775002242DB /* goku in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244A1A1C2775002242DB /* goku */; };
+		1FC924551A1C2775002242DB /* chucknorris in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244B1A1C2775002242DB /* chucknorris */; };
+		1FC924561A1C2775002242DB /* brucelee in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244C1A1C2775002242DB /* brucelee */; };
+		1FC924571A1C2775002242DB /* batman in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244D1A1C2775002242DB /* batman */; };
 		20500F181A1C0CFA0048EAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20500F171A1C0CFA0048EAF6 /* AppDelegate.swift */; };
 		20500F1A1A1C0CFA0048EAF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20500F191A1C0CFA0048EAF6 /* ViewController.swift */; };
 		20500F1D1A1C0CFA0048EAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20500F1B1A1C0CFA0048EAF6 /* Main.storyboard */; };
@@ -41,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FC924441A1C2775002242DB /* wolverine */ = {isa = PBXFileReference; lastKnownFileType = file; name = wolverine; path = Images.xcassets/wolverine; sourceTree = "<group>"; };
+		1FC924451A1C2775002242DB /* tmnt */ = {isa = PBXFileReference; lastKnownFileType = file; name = tmnt; path = Images.xcassets/tmnt; sourceTree = "<group>"; };
+		1FC924461A1C2775002242DB /* superman */ = {isa = PBXFileReference; lastKnownFileType = file; name = superman; path = Images.xcassets/superman; sourceTree = "<group>"; };
+		1FC924471A1C2775002242DB /* solidsnake */ = {isa = PBXFileReference; lastKnownFileType = file; name = solidsnake; path = Images.xcassets/solidsnake; sourceTree = "<group>"; };
+		1FC924481A1C2775002242DB /* princesspeach */ = {isa = PBXFileReference; lastKnownFileType = file; name = princesspeach; path = Images.xcassets/princesspeach; sourceTree = "<group>"; };
+		1FC924491A1C2775002242DB /* pikachu */ = {isa = PBXFileReference; lastKnownFileType = file; name = pikachu; path = Images.xcassets/pikachu; sourceTree = "<group>"; };
+		1FC9244A1A1C2775002242DB /* goku */ = {isa = PBXFileReference; lastKnownFileType = file; name = goku; path = Images.xcassets/goku; sourceTree = "<group>"; };
+		1FC9244B1A1C2775002242DB /* chucknorris */ = {isa = PBXFileReference; lastKnownFileType = file; name = chucknorris; path = Images.xcassets/chucknorris; sourceTree = "<group>"; };
+		1FC9244C1A1C2775002242DB /* brucelee */ = {isa = PBXFileReference; lastKnownFileType = file; name = brucelee; path = Images.xcassets/brucelee; sourceTree = "<group>"; };
+		1FC9244D1A1C2775002242DB /* batman */ = {isa = PBXFileReference; lastKnownFileType = file; name = batman; path = Images.xcassets/batman; sourceTree = "<group>"; };
 		20500F121A1C0CFA0048EAF6 /* VotingPoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VotingPoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20500F161A1C0CFA0048EAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20500F171A1C0CFA0048EAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +148,16 @@
 				20500F191A1C0CFA0048EAF6 /* ViewController.swift */,
 				20500F1B1A1C0CFA0048EAF6 /* Main.storyboard */,
 				20500F1E1A1C0CFA0048EAF6 /* Images.xcassets */,
+				1FC924441A1C2775002242DB /* wolverine */,
+				1FC924451A1C2775002242DB /* tmnt */,
+				1FC924461A1C2775002242DB /* superman */,
+				1FC924471A1C2775002242DB /* solidsnake */,
+				1FC924481A1C2775002242DB /* princesspeach */,
+				1FC924491A1C2775002242DB /* pikachu */,
+				1FC9244A1A1C2775002242DB /* goku */,
+				1FC9244B1A1C2775002242DB /* chucknorris */,
+				1FC9244C1A1C2775002242DB /* brucelee */,
+				1FC9244D1A1C2775002242DB /* batman */,
 				20500F201A1C0CFA0048EAF6 /* LaunchScreen.xib */,
 				20500F151A1C0CFA0048EAF6 /* Supporting Files */,
 				20500F571A1C16840048EAF6 /* Battle.swift */,
@@ -261,9 +291,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC924571A1C2775002242DB /* batman in Resources */,
+				1FC924531A1C2775002242DB /* pikachu in Resources */,
+				1FC9244F1A1C2775002242DB /* tmnt in Resources */,
+				1FC9244E1A1C2775002242DB /* wolverine in Resources */,
+				1FC924561A1C2775002242DB /* brucelee in Resources */,
 				20500F1D1A1C0CFA0048EAF6 /* Main.storyboard in Resources */,
 				20500F221A1C0CFA0048EAF6 /* LaunchScreen.xib in Resources */,
 				20500F1F1A1C0CFA0048EAF6 /* Images.xcassets in Resources */,
+				1FC924521A1C2775002242DB /* princesspeach in Resources */,
+				1FC924511A1C2775002242DB /* solidsnake in Resources */,
+				1FC924551A1C2775002242DB /* chucknorris in Resources */,
+				1FC924541A1C2775002242DB /* goku in Resources */,
+				1FC924501A1C2775002242DB /* superman in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
