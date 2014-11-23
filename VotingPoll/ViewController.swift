@@ -11,9 +11,11 @@ import UIKit
 class ViewController: UIViewController {
     
     var battles:[Battle] = []
-    var currentBattle:Int = 0;
+    var currentBattle:Int = 0
     
-    @IBOutlet var swipeRecognizer: UISwipeGestureRecognizer!
+    var isVote = false
+    
+    //@IBOutlet var swipeRecognizer: UISwipeGestureRecognizer!
     
     @IBOutlet weak var char1Label: UILabel!
     @IBOutlet weak var char2Label: UILabel!
@@ -54,6 +56,12 @@ class ViewController: UIViewController {
                 self.char1Label.text = "\(self.battles[0].character1)"
                 self.char2Label.text = "\(self.battles[0].character2)"
                 
+                var image = UIImage(named: "\(self.battles[0].character1).png")
+                self.char1Button.setBackgroundImage(image, forState: UIControlState.Normal)
+                
+                image = UIImage(named: "\(self.battles[0].character2).png")
+                self.char2Button.setBackgroundImage(image, forState: UIControlState.Normal)
+                
             } else {
                 // Log details of the failure
                 NSLog("Error: %@ %@", error, error.userInfo!)
@@ -63,17 +71,23 @@ class ViewController: UIViewController {
     
     
     @IBAction func char1Vote(sender: AnyObject) {
-        println("VOTE CHAR 1")
-        battles[currentBattle].incChar1()
-        p1Perct.text = "\(battles[currentBattle].getChar1Percentage()) %"
-        p2Perct.text = "\(battles[currentBattle].getChar2Percentage()) %"
+        if(!isVote){
+            println("VOTE CHAR 1")
+            battles[currentBattle].incChar1()
+            p1Perct.text = "\(battles[currentBattle].getChar1Percentage()) %"
+            p2Perct.text = "\(battles[currentBattle].getChar2Percentage()) %"
+            isVote = true
+        }
     }
     
     @IBAction func char2Vote(sender: AnyObject) {
-        println("VOTE CHAR 2")
-        battles[currentBattle].incChar2()
-        p1Perct.text = "\(battles[currentBattle].getChar1Percentage()) %"
-        p2Perct.text = "\(battles[currentBattle].getChar2Percentage()) %"
+        if(!isVote){
+            println("VOTE CHAR 2")
+            battles[currentBattle].incChar2()
+            p1Perct.text = "\(battles[currentBattle].getChar1Percentage()) %"
+            p2Perct.text = "\(battles[currentBattle].getChar2Percentage()) %"
+            isVote = true
+        }
     }
 
     override func didReceiveMemoryWarning() {
