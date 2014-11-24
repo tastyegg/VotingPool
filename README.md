@@ -1,5 +1,27 @@
 VotingPool
 ==========
+
+Characters:
+Chuck Norris, Bruce Lee,
+Wolverine, Superman, Batman,
+Pikachu, Solid Snake, PrincessPeach,
+Goku and TeenageNinjaMutantTurtles.
+
+==========
+Changes:
+Fixed constraints to compensate for large images.
+Somewhat colored GUI.
+Start-up index for which battle is random; the array is not shuffled.
+Chuck Norris's pic is zoomed up.
+
+What needs to be done:
+Put more battles!
+Change filenames for "princesspeach" to "prince peach", "tnmt" to "teenage ninja mutant turtles", and "solidsnake" to "solid snake" for correct name tags.
+
+Refer to README for fighters to match up.
+
+----
+
 Note:
 Previous commit logs corrupted. Xcode commiting messaging sucks.
 
