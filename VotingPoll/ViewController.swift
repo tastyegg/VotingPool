@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     var battles:[Battle] = []
-    var currentBattle:Int = 0
+    var currentBattle:Int = 1
     
     var isVote = false
     
@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var p1Perct: UILabel!
     @IBOutlet weak var p2Perct: UILabel!
+	@IBOutlet weak var battleButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +54,7 @@ class ViewController: UIViewController {
                         voteChar1: object["vote_one"] as Float,
                         voteChar2: object["vote_two"] as Float))
                 }
+				self.currentBattle = random() % self.battles.count
                 self.char1Label.text = "\(self.battles[self.currentBattle].character1)"
                 self.char2Label.text = "\(self.battles[self.currentBattle].character2)"
 				
@@ -79,6 +81,7 @@ class ViewController: UIViewController {
             p1Perct.text = "\(battles[currentBattle].getChar1Percentage()) %"
             p2Perct.text = "\(battles[currentBattle].getChar2Percentage()) %"
             isVote = true
+			battleButton.hidden = false
         }
     }
 	
@@ -89,15 +92,17 @@ class ViewController: UIViewController {
             battles[currentBattle].incChar2()
             p1Perct.text = "\(battles[currentBattle].getChar1Percentage()) %"
             p2Perct.text = "\(battles[currentBattle].getChar2Percentage()) %"
-            isVote = true
+			isVote = true
+			battleButton.hidden = false
         }
     }
 
 	@IBAction func nextBattle(sender: AnyObject) {
+		battleButton.hidden = true
 		currentBattle = (currentBattle + 1) % battles.count
 		isVote = false
-		p1Perct.text = ""
-		p2Perct.text = ""
+		p1Perct.text = " "
+		p2Perct.text = " "
 		
 		char1Label.text = "\(battles[currentBattle].character1)"
 		char2Label.text = "\(battles[currentBattle].character2)"
