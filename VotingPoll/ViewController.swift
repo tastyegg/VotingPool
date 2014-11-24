@@ -81,7 +81,8 @@ class ViewController: UIViewController {
             isVote = true
         }
     }
-    
+	
+	
     @IBAction func char2Vote(sender: AnyObject) {
         if(!isVote){
             println("VOTE CHAR 2")
