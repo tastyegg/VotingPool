@@ -53,15 +53,17 @@ class ViewController: UIViewController {
                         voteChar1: object["vote_one"] as Float,
                         voteChar2: object["vote_two"] as Float))
                 }
-                self.char1Label.text = "\(self.battles[0].character1)"
-                self.char2Label.text = "\(self.battles[0].character2)"
-                
-                var image = UIImage(named: "\(self.battles[0].character1).png")
-                self.char1Button.setBackgroundImage(image, forState: UIControlState.Normal)
-                
-                image = UIImage(named: "\(self.battles[0].character2).png")
-                self.char2Button.setBackgroundImage(image, forState: UIControlState.Normal)
-                
+                self.char1Label.text = "\(self.battles[self.currentBattle].character1)"
+                self.char2Label.text = "\(self.battles[self.currentBattle].character2)"
+				
+                var image = UIImage(named: (self.battles[self.currentBattle].character1 as NSString).lowercaseString)
+				self.char1Button.setImage(image, forState: UIControlState.Normal)
+				self.char1Button.imageView?.contentMode = UIViewContentMode.ScaleAspectFill
+				
+                image = UIImage(named: (self.battles[self.currentBattle].character2 as NSString).lowercaseString)
+				self.char2Button.setImage(image, forState: UIControlState.Normal)
+				self.char2Button.imageView?.contentMode = UIViewContentMode.ScaleAspectFill
+				
             } else {
                 // Log details of the failure
                 NSLog("Error: %@ %@", error, error.userInfo!)
@@ -90,6 +92,22 @@ class ViewController: UIViewController {
         }
     }
 
+	@IBAction func nextBattle(sender: AnyObject) {
+		currentBattle = (currentBattle + 1) % battles.count
+		isVote = false
+		p1Perct.text = ""
+		p2Perct.text = ""
+		
+		char1Label.text = "\(battles[currentBattle].character1)"
+		char2Label.text = "\(battles[currentBattle].character2)"
+			
+		var image = UIImage(named: (battles[currentBattle].character1 as NSString).lowercaseString)
+		char1Button.setImage(image, forState: UIControlState.Normal)
+		
+		image = UIImage(named: (self.battles[currentBattle].character2 as NSString).lowercaseString)
+		char2Button.setImage(image, forState: UIControlState.Normal)
+	}
+	
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

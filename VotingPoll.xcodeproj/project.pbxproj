@@ -7,26 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FC9244E1A1C2775002242DB /* wolverine in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924441A1C2775002242DB /* wolverine */; };
-		1FC9244F1A1C2775002242DB /* tmnt in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924451A1C2775002242DB /* tmnt */; };
-		1FC924501A1C2775002242DB /* superman in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924461A1C2775002242DB /* superman */; };
-		1FC924511A1C2775002242DB /* solidsnake in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924471A1C2775002242DB /* solidsnake */; };
-		1FC924521A1C2775002242DB /* princesspeach in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924481A1C2775002242DB /* princesspeach */; };
-		1FC924531A1C2775002242DB /* pikachu in Resources */ = {isa = PBXBuildFile; fileRef = 1FC924491A1C2775002242DB /* pikachu */; };
-		1FC924541A1C2775002242DB /* goku in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244A1A1C2775002242DB /* goku */; };
-		1FC924551A1C2775002242DB /* chucknorris in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244B1A1C2775002242DB /* chucknorris */; };
-		1FC924561A1C2775002242DB /* brucelee in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244C1A1C2775002242DB /* brucelee */; };
-		1FC924571A1C2775002242DB /* batman in Resources */ = {isa = PBXBuildFile; fileRef = 1FC9244D1A1C2775002242DB /* batman */; };
 		20500F181A1C0CFA0048EAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20500F171A1C0CFA0048EAF6 /* AppDelegate.swift */; };
 		20500F1A1A1C0CFA0048EAF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20500F191A1C0CFA0048EAF6 /* ViewController.swift */; };
 		20500F1D1A1C0CFA0048EAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20500F1B1A1C0CFA0048EAF6 /* Main.storyboard */; };
 		20500F1F1A1C0CFA0048EAF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20500F1E1A1C0CFA0048EAF6 /* Images.xcassets */; };
 		20500F221A1C0CFA0048EAF6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20500F201A1C0CFA0048EAF6 /* LaunchScreen.xib */; };
 		20500F2E1A1C0CFA0048EAF6 /* VotingPollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20500F2D1A1C0CFA0048EAF6 /* VotingPollTests.swift */; };
-		20500F3D1A1C11EB0048EAF6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F391A1C11EB0048EAF6 /* Bolts.framework */; };
-		20500F3E1A1C11EB0048EAF6 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F3A1A1C11EB0048EAF6 /* Parse.framework */; };
-		20500F3F1A1C11EB0048EAF6 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F3B1A1C11EB0048EAF6 /* ParseFacebookUtils.framework */; };
-		20500F401A1C11EB0048EAF6 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F3C1A1C11EB0048EAF6 /* ParseUI.framework */; };
 		20500F421A1C12650048EAF6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F411A1C12650048EAF6 /* AudioToolbox.framework */; };
 		20500F441A1C12700048EAF6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F431A1C12700048EAF6 /* CFNetwork.framework */; };
 		20500F471A1C12860048EAF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F451A1C12860048EAF6 /* CoreGraphics.framework */; };
@@ -38,6 +24,8 @@
 		20500F531A1C12AB0048EAF6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F4F1A1C12AB0048EAF6 /* StoreKit.framework */; };
 		20500F541A1C12AB0048EAF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20500F501A1C12AB0048EAF6 /* SystemConfiguration.framework */; };
 		20500F581A1C16840048EAF6 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20500F571A1C16840048EAF6 /* Battle.swift */; };
+		795661AE1A238151002748F2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795661AC1A238151002748F2 /* Bolts.framework */; };
+		795661AF1A238151002748F2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795661AD1A238151002748F2 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,16 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1FC924441A1C2775002242DB /* wolverine */ = {isa = PBXFileReference; lastKnownFileType = file; name = wolverine; path = Images.xcassets/wolverine; sourceTree = "<group>"; };
-		1FC924451A1C2775002242DB /* tmnt */ = {isa = PBXFileReference; lastKnownFileType = file; name = tmnt; path = Images.xcassets/tmnt; sourceTree = "<group>"; };
-		1FC924461A1C2775002242DB /* superman */ = {isa = PBXFileReference; lastKnownFileType = file; name = superman; path = Images.xcassets/superman; sourceTree = "<group>"; };
-		1FC924471A1C2775002242DB /* solidsnake */ = {isa = PBXFileReference; lastKnownFileType = file; name = solidsnake; path = Images.xcassets/solidsnake; sourceTree = "<group>"; };
-		1FC924481A1C2775002242DB /* princesspeach */ = {isa = PBXFileReference; lastKnownFileType = file; name = princesspeach; path = Images.xcassets/princesspeach; sourceTree = "<group>"; };
-		1FC924491A1C2775002242DB /* pikachu */ = {isa = PBXFileReference; lastKnownFileType = file; name = pikachu; path = Images.xcassets/pikachu; sourceTree = "<group>"; };
-		1FC9244A1A1C2775002242DB /* goku */ = {isa = PBXFileReference; lastKnownFileType = file; name = goku; path = Images.xcassets/goku; sourceTree = "<group>"; };
-		1FC9244B1A1C2775002242DB /* chucknorris */ = {isa = PBXFileReference; lastKnownFileType = file; name = chucknorris; path = Images.xcassets/chucknorris; sourceTree = "<group>"; };
-		1FC9244C1A1C2775002242DB /* brucelee */ = {isa = PBXFileReference; lastKnownFileType = file; name = brucelee; path = Images.xcassets/brucelee; sourceTree = "<group>"; };
-		1FC9244D1A1C2775002242DB /* batman */ = {isa = PBXFileReference; lastKnownFileType = file; name = batman; path = Images.xcassets/batman; sourceTree = "<group>"; };
 		20500F121A1C0CFA0048EAF6 /* VotingPoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VotingPoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20500F161A1C0CFA0048EAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20500F171A1C0CFA0048EAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,10 +50,6 @@
 		20500F2C1A1C0CFA0048EAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20500F2D1A1C0CFA0048EAF6 /* VotingPollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingPollTests.swift; sourceTree = "<group>"; };
 		20500F371A1C10330048EAF6 /* Grouped-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grouped-Bridging-Header.h"; sourceTree = "<group>"; };
-		20500F391A1C11EB0048EAF6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1.5.0 (2)/Bolts.framework"; sourceTree = "<group>"; };
-		20500F3A1A1C11EB0048EAF6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1.5.0 (2)/Parse.framework"; sourceTree = "<group>"; };
-		20500F3B1A1C11EB0048EAF6 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../Downloads/parse-library-1.5.0 (2)/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
-		20500F3C1A1C11EB0048EAF6 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../Downloads/parse-library-1.5.0 (2)/ParseUI.framework"; sourceTree = "<group>"; };
 		20500F411A1C12650048EAF6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		20500F431A1C12700048EAF6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		20500F451A1C12860048EAF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +61,8 @@
 		20500F4F1A1C12AB0048EAF6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		20500F501A1C12AB0048EAF6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		20500F571A1C16840048EAF6 /* Battle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
+		795661AC1A238151002748F2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		795661AD1A238151002748F2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +78,10 @@
 				20500F4A1A1C128D0048EAF6 /* libz.dylib in Frameworks */,
 				20500F471A1C12860048EAF6 /* CoreGraphics.framework in Frameworks */,
 				20500F481A1C12860048EAF6 /* CoreLocation.framework in Frameworks */,
+				795661AE1A238151002748F2 /* Bolts.framework in Frameworks */,
 				20500F441A1C12700048EAF6 /* CFNetwork.framework in Frameworks */,
+				795661AF1A238151002748F2 /* Parse.framework in Frameworks */,
 				20500F421A1C12650048EAF6 /* AudioToolbox.framework in Frameworks */,
-				20500F3E1A1C11EB0048EAF6 /* Parse.framework in Frameworks */,
-				20500F3D1A1C11EB0048EAF6 /* Bolts.framework in Frameworks */,
-				20500F401A1C11EB0048EAF6 /* ParseUI.framework in Frameworks */,
-				20500F3F1A1C11EB0048EAF6 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,16 +122,6 @@
 				20500F191A1C0CFA0048EAF6 /* ViewController.swift */,
 				20500F1B1A1C0CFA0048EAF6 /* Main.storyboard */,
 				20500F1E1A1C0CFA0048EAF6 /* Images.xcassets */,
-				1FC924441A1C2775002242DB /* wolverine */,
-				1FC924451A1C2775002242DB /* tmnt */,
-				1FC924461A1C2775002242DB /* superman */,
-				1FC924471A1C2775002242DB /* solidsnake */,
-				1FC924481A1C2775002242DB /* princesspeach */,
-				1FC924491A1C2775002242DB /* pikachu */,
-				1FC9244A1A1C2775002242DB /* goku */,
-				1FC9244B1A1C2775002242DB /* chucknorris */,
-				1FC9244C1A1C2775002242DB /* brucelee */,
-				1FC9244D1A1C2775002242DB /* batman */,
 				20500F201A1C0CFA0048EAF6 /* LaunchScreen.xib */,
 				20500F151A1C0CFA0048EAF6 /* Supporting Files */,
 				20500F571A1C16840048EAF6 /* Battle.swift */,
@@ -193,6 +157,8 @@
 		20500F381A1C11BB0048EAF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				795661AC1A238151002748F2 /* Bolts.framework */,
+				795661AD1A238151002748F2 /* Parse.framework */,
 				20500F4D1A1C12AB0048EAF6 /* QuartzCore.framework */,
 				20500F4E1A1C12AB0048EAF6 /* Security.framework */,
 				20500F4F1A1C12AB0048EAF6 /* StoreKit.framework */,
@@ -203,10 +169,6 @@
 				20500F461A1C12860048EAF6 /* CoreLocation.framework */,
 				20500F431A1C12700048EAF6 /* CFNetwork.framework */,
 				20500F411A1C12650048EAF6 /* AudioToolbox.framework */,
-				20500F391A1C11EB0048EAF6 /* Bolts.framework */,
-				20500F3A1A1C11EB0048EAF6 /* Parse.framework */,
-				20500F3B1A1C11EB0048EAF6 /* ParseFacebookUtils.framework */,
-				20500F3C1A1C11EB0048EAF6 /* ParseUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -291,19 +253,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC924571A1C2775002242DB /* batman in Resources */,
-				1FC924531A1C2775002242DB /* pikachu in Resources */,
-				1FC9244F1A1C2775002242DB /* tmnt in Resources */,
-				1FC9244E1A1C2775002242DB /* wolverine in Resources */,
-				1FC924561A1C2775002242DB /* brucelee in Resources */,
 				20500F1D1A1C0CFA0048EAF6 /* Main.storyboard in Resources */,
 				20500F221A1C0CFA0048EAF6 /* LaunchScreen.xib in Resources */,
 				20500F1F1A1C0CFA0048EAF6 /* Images.xcassets in Resources */,
-				1FC924521A1C2775002242DB /* princesspeach in Resources */,
-				1FC924511A1C2775002242DB /* solidsnake in Resources */,
-				1FC924551A1C2775002242DB /* chucknorris in Resources */,
-				1FC924541A1C2775002242DB /* goku in Resources */,
-				1FC924501A1C2775002242DB /* superman in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +404,7 @@
 					"$(inherited)",
 					"/Users/jonathansamudio/Downloads/parse-library-1.5.0",
 					"(2)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = VotingPoll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -468,6 +421,7 @@
 					"$(inherited)",
 					"/Users/jonathansamudio/Downloads/parse-library-1.5.0",
 					"(2)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = VotingPoll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
